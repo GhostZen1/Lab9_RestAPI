@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.getJokeActivityFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnGetJoke"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Is this a Joke?" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="36dp"
+            android:text="Joke : " />
+
+        <TextView
+            android:id="@+id/txtViewSetup"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Punchline : " />
+
+        <TextView
+            android:id="@+id/txtViewPunchline"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Punchline : " />
+
+        <TextView
+            android:id="@+id/txtViewJokeType"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:text="TextView" />
+    </LinearLayout>
+</FrameLayout>
